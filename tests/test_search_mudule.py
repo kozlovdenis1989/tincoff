@@ -72,3 +72,9 @@ def test_search_paginator(main_page):
 
     obj.click_role_link(name="1", exact=True)
     assert "q=ставка" in unquote(obj.page.url)
+
+
+
+
+
+ 
