@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Playwright / Тестовые артефакты
+test-results/
+trace.zip
+.pytest_cache/
+.playwright/
+
+# Отчеты
+report.html
+report.xml
+assets/
+
+# Логи и системные файлы
+*.log
+.DS_Store
+Thumbs.db
+
+# Конфиденциальные данные
+.env
+.vscode
